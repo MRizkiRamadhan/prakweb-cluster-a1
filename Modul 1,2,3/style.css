@@ -1,0 +1,80 @@
+body {
+	font-family: Georgia, Times, serif;
+	line-height: 1.4em;
+	margin: 0px;
+}
+header {
+	height: 200px;
+	width: 784px;
+	margin: 20px auto 20px auto;
+	border: 2px solid #000000;
+	background-color: #ffffff;
+	display: block;
+}
+
+.sidenav {
+	height: auto;
+	width: 200px;
+	float: left;
+	clear: both;
+	color: #ffffff;
+	background-color: #aeaca8;
+	display: block;
+}
+
+.sidenav ul {
+	margin: 0px;
+	padding: 5px 0px 5px 30px;
+}
+
+.sidenav li {
+	display: block;
+	margin-right: 40px;
+}
+
+.sidenav li a {
+	color: #000000;
+}
+
+.sidenav li a:hover {
+	color: #de6581;}
+
+.main {
+	height: auto;
+	width: 584px;
+	margin: 20px auto 20px auto;
+	border: 2px solid #000000;
+	background-color: #ffffff;
+}
+
+article {
+	clear: both;
+	overflow: auto;
+	width: 100%;
+}
+
+p {
+	text-align: justify;}
+hgroup {
+	margin-top: 40px;}
+figure {
+	float: left;
+	width: 290px;
+	height: 220px;
+	padding: 5px;
+	margin: 20px;
+	border: 1px solid #eeeeee;}
+figcaption {
+	font-size: 90%;
+	text-align: left;}
+
+footer {
+	width: 784px;
+	height: 100px;
+	font-size: 80%;
+	padding: 7px 0px 0px 20px;
+	text-align: center;
+	clear: both;
+	color: #ffffff;
+	background-color: #aeaca8;
+}
